@@ -356,8 +356,5 @@ Referring to this topology as an example:
   <img width="609" height="103" alt="image" src="https://github.com/user-attachments/assets/be8edf96-69f1-46b1-9c6e-22a729945930" />
 </div>
 
-## Root Guard
-
-## Loop Guard
 
 
