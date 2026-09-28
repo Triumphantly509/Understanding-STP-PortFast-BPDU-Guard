@@ -267,45 +267,56 @@ Referring to this topology as an example:
   <img width="628" height="291" alt="image" src="https://github.com/user-attachments/assets/b3e9eb1d-0767-4717-92b2-6bd88dfda11d" />
 </div>
 
-## Enabling PortFast on all access ports (not trunk ports) (on the 2 access switches)
-- Because when connecting a PC on the switch, It won't have access right away.
-- Portfast can fix this issue by bypassing the learning and listening phase.
-
-- Switch 0
+## Trunk all the switch interfaces like this
 <div>
-  <img width="626" height="295" alt="image" src="https://github.com/user-attachments/assets/3d3138d5-07dd-4f34-b68a-ed10681869ad" />
+  <img width="629" height="113" alt="image" src="https://github.com/user-attachments/assets/18aa2d19-7bf6-423a-8c1e-8b9b15cd5e6a" />
+</div>
+
+## Enabling PortFast by default on all access ports (not trunk ports)
+- Portfast bypasses the learning and listening phase.
+
+<div>
+  <img width="638" height="149" alt="image" src="https://github.com/user-attachments/assets/6c7b78ba-dd14-41a5-9229-b7f5c820c5f7" />
 </div>
 
 ## BPDU Guard
 - If an interface with BPDU Guard enabled receives a BPDU from another switch, the interface will be shut down to prevent a loop from forming.
 
 <div>
-  <img width="630" height="219" alt="image" src="https://github.com/user-attachments/assets/acceed9c-fac5-40c3-8fa3-8e4c8ca8bff9" />
-</div>
-
-
-## Notice .... Only interfaces where PCs are connected to the switch that Portfast and BPDU Guard should be activated.
--we need to remove portfast on the interfaces connected to the switches.
-
-<div>
-  
-</div>
-
-- Switch 2
-
-<div>
-  
+  <img width="632" height="207" alt="image" src="https://github.com/user-attachments/assets/7df24f83-6013-49fb-8ccd-2cac787f4acd" />
 </div>
 
 ## How to verify
+<div>
+  <img width="625" height="304" alt="image" src="https://github.com/user-attachments/assets/fca009c2-11ea-4d5f-b15d-5aaff12fabdd" />
+</div>
 
+## Err-disable port
+<div>
+  <img width="864" height="459" alt="image" src="https://github.com/user-attachments/assets/21ab95f6-9e30-4901-b91e-927b37e62396" />
+</div>
 
+## Switch 47
+<div>
+  <img width="642" height="423" alt="image" src="https://github.com/user-attachments/assets/8ac674d0-a0cf-4287-9441-a8c7b40e6551" />
+</div>
 
-## How to enable BPDU Guard
+## Switch 2
+<div>
+  <img width="635" height="434" alt="image" src="https://github.com/user-attachments/assets/a89f785a-f3c2-4abe-808d-c632d1669e68" />
+</div>
 
-## To enable enable a port that was disabled by BPDU Guard
+## To enable a port that was disabled by BPDU Guard
 
-## How to verify
+## interface fa0/5 is back to the PC interface
+<div>
+  <img width="628" height="185" alt="image" src="https://github.com/user-attachments/assets/6f93d3e4-3f25-48df-8e75-9c7309ab13be" />
+</div>
+
+## Result
+<div>
+  <img width="902" height="464" alt="image" src="https://github.com/user-attachments/assets/6de0f900-1aaa-44e1-9e5c-5866459a91df" />
+</div>
 
 ## Root Guard
 
