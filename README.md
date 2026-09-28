@@ -318,6 +318,44 @@ Referring to this topology as an example:
   <img width="902" height="464" alt="image" src="https://github.com/user-attachments/assets/6de0f900-1aaa-44e1-9e5c-5866459a91df" />
 </div>
 
+## Enable portfast and Bpdu guard per ports
+- All the ports are access ports
+
+  <div>
+    <img width="787" height="433" alt="image" src="https://github.com/user-attachments/assets/2ab25e6c-42b8-452c-b4a7-256393b1f517" />
+  </div>
+  
+## Shutdown all non-utilized ports
+
+- Fast Ethernet ports
+<div>
+  <img width="621" height="76" alt="image" src="https://github.com/user-attachments/assets/0db09ca7-af0a-4569-bc0d-c331253d078d" />
+</div>
+
+- Gigabit Ethernet ports
+<div>
+  <img width="631" height="98" alt="image" src="https://github.com/user-attachments/assets/42e87b39-6adf-46e5-93e0-610b3c3ced3b" />
+</div>
+
+- Result
+- <div>
+  <img width="630" height="431" alt="image" src="https://github.com/user-attachments/assets/49eeba59-ce3c-4e53-832d-727c35c03fa1" />
+</div>
+## Enable portfast and Bpdu Guard on specific ports
+<div>
+  <img width="636" height="488" alt="image" src="https://github.com/user-attachments/assets/31c981ff-cbb7-4c58-b7eb-62597c30a0d4" />
+</div>
+
+## Result
+<div>
+  <img width="796" height="473" alt="image" src="https://github.com/user-attachments/assets/1eef56b0-f47f-46b0-b77a-10259ae12343" />
+</div>
+
+## Err-disabled
+<div>
+  <img width="609" height="103" alt="image" src="https://github.com/user-attachments/assets/be8edf96-69f1-46b1-9c6e-22a729945930" />
+</div>
+
 ## Root Guard
 
 ## Loop Guard
